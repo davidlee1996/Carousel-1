@@ -1,0 +1,63 @@
+body html{
+	background-color: gray;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+}
+.navbar {
+	position: fixed;
+	background-color: black;
+	opacity: 0.5;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 50px;
+	z-index: 1;
+}
+
+.navbar > span{
+	color: white;
+	float: right;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.wrapper{
+	/*border: 1px solid black;*/
+	margin-top: 50px;
+}
+
+.image-shown{
+	display: inline-block;
+}
+
+.image-hidden{
+	display: none;
+}
+
+.carousel-inner{
+	width: 1000px;
+	height: 500px;
+	position: relative;
+	float: left;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.previousLink, .nextLink{
+	float: left;
+	margin-top: 170px;
+}
+
+.previousLink{
+	margin-right: 20px;
+}
+
+.nextLink{
+	margin-left: 20px;
+}
+
